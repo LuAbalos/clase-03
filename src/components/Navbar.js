@@ -1,3 +1,6 @@
+import CartWidget from './CartWidget'
+import ItemListContainer from './ItemListContainer'
+
 const NavBar = () => {
     return (
         <nav>
@@ -26,6 +29,11 @@ const NavBar = () => {
                     <span> Quienes somos</span>
                 </li>
                 
+                <li>
+                <ItemListContainer></ItemListContainer>
+                <CartWidget></CartWidget>
+                
+                </li>
             </ul>
         </nav>
     );
