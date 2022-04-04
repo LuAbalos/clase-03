@@ -1,11 +1,12 @@
-const ItemListContainer= () => {
+const ItemListContainer= ({props}) => {
     return (
       <>
-        <div className="circulo">
-            <h10>1</h10>
-        </div>
+        {props}
       </>
     );
   }
   
   export default ItemListContainer;
+
+  //const ItemListContainer\= ({props}) \=> {
+   

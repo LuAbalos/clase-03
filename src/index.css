@@ -38,7 +38,10 @@ nav ul li {
 li:hover {
   transform: scale(1.2);
   text-decoration: black; }
-
+  .divcarrito{
+    position: relative;
+    margin-top: 1cm;
+  }
   .circulo {
     width: 14px;
     height: 14px;
@@ -46,5 +49,11 @@ li:hover {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #5cb85c;
+    position: relative;
+    border-top-width: thin;
+  }
+  .numeroCarrito{
     font-size: small;
-}
+    height: fit-content;
+   
+  }
